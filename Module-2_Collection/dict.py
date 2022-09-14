@@ -1,22 +1,17 @@
-stdata={'id':1,'name':'sanket','sub':'python'}
+stdata={'id':101,'name':'sanket','sub':'python'}
+"""print(stdata)
+print(stdata['name'])
+print(stdata.get("sub"))
 
-#print(stdata)
-#print(stdata['name'])
-#print(stdata.get('sub'))
+print(stdata.keys())
+print(stdata.values())"""
 
-#print(len(stdata))
-
-"""if 'name' in stdata:
+"""if 'city' in stdata:
     print("Yes...")
 else:
-    print("Noo..")"""
+    print("Noo")"""
 
-#print(stdata.keys())
-#print(stdata.values())
 
-#print(stdata)
-#stdata['id']=2
-print(stdata)
 
 """for i in stdata:
     print(i)"""
@@ -26,9 +21,20 @@ print(stdata)
 
 """for i in stdata.items():
     print(i)"""
+"""print(stdata)
+stdata['id']=102
+stdata['name']='Nirav'
+"""
 
-stdata['city']='Rajkot'
-#stdata.pop('sub')
+#print(stdata)
+#print(len(stdata))
+stdata["city"]="rajkot"
+#print(stdata)
+#stdata.pop("sub")
 #del stdata['name']
-stdata.clear()
+#del stdata
+#stdata.clear()
 print(stdata)
+
+newdict=stdata.copy()
+print(newdict)
