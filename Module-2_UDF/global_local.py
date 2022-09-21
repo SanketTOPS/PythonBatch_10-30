@@ -2,11 +2,13 @@
 #a=34
 #b=89
 
-print("Mul:",a*b)
+
 
 def getsum():
+    #local
     a=34
     b=89
     print("Sum:",a+b)
 
-getsum()
+#print("Mul:",a*b)
+#getsum()
